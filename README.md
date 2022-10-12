@@ -1,14 +1,14 @@
-# Azure VM Terraform Module
+# Azure Virtual Machine Module
 This is a module that manages an Azure VM.
 
 ## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
 and [CHANGES][chge] documents before working in this project and anytime they
-are update.
+are updated.
 
 ## Overview
-The focus of this module is to provide a simplified interface for Azure virtual
-machines.
+The focus of this module is to provide a simplified interface for the mangement
+of Azure virtual machines.
 
 This module does not seek to make the full range of Azure VM options available.
 Our goal is to provide only the options that make sense and support a
