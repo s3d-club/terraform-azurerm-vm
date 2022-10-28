@@ -2,8 +2,7 @@ variable "admin_username" {
   type = string
 
   description = <<-EOT
-    the `admin_username` for the vm.
-    https://go.s3d.club/tf/vm#admin_username
+    The `admin_username` for the vm.
     EOT 
 }
 
@@ -11,8 +10,7 @@ variable "location" {
   type = string
 
   description = <<-EOT
-    the `location` for the vm.
-    https://go.s3d.club/tf/vm#location
+    The `location` for the vm.
     EOT 
 }
 
@@ -20,8 +18,7 @@ variable "name_prefix" {
   type = string
 
   description = <<-EOT
-    a prefix for the random name of the vm.
-    https://go.s3d.club/tf/vm#name_prefix
+    A prefix for the random name of the vm.
     EOT 
 }
 
@@ -29,8 +26,7 @@ variable "disk_size_gb" {
   type = number
 
   description = <<-EOT
-    the `disk_size_gb` for the vm.
-    https://go.s3d.club/tf/vm#disk_size_gb
+    The `disk_size_gb` for the vm.
     EOT 
 }
 
@@ -42,8 +38,7 @@ variable "plan" {
   })
 
   description = <<-EOT
-    the `plan` for the vm.
-    https://go.s3d.club/tf/vm#plan
+    The `plan` for the vm.
     EOT 
 }
 
@@ -51,8 +46,7 @@ variable "public_key" {
   type = string
 
   description = <<-EOT
-    the `public_key` for the vm.
-    https://go.s3d.club/tf/vm#public_key
+    The `public_key` for the vm.
     EOT 
 }
 
@@ -60,8 +54,7 @@ variable "resource_group_name" {
   type = string
 
   description = <<-EOT
-    the `resource_group_name` of the vm.
-    https://go.s3d.club/tf/vm#resource_group_name
+    The `resource_group_name` of the vm.
     EOT 
 }
 
@@ -69,8 +62,7 @@ variable "size" {
   type = string
 
   description = <<-EOT
-    the `size` of the vm.
-    https://go.s3d.club/tf/vm#location
+    The `size` of the vm.
     EOT 
 }
 
@@ -78,8 +70,7 @@ variable "source_image_id" {
   type = string
 
   description = <<-EOT
-    the `source_image_id` of the vm.
-    https://go.s3d.club/tf/vm#location
+    The `source_image_id` of the vm.
     EOT 
 }
 
@@ -87,8 +78,7 @@ variable "storage_account_type" {
   type = string
 
   description = <<-EOT
-    the `storage_account_type` for the vm.
-    https://go.s3d.club/tf/vm#location
+    The `storage_account_type` for the vm.
     EOT 
 }
 
@@ -96,8 +86,7 @@ variable "tags" {
   type = map(string)
 
   description = <<-EOT
-    the `tags` for the vm.
-    https://go.s3d.club/tf/vm#tags
+    The `tags` for the vm.
     EOT
 }
 
@@ -105,8 +94,7 @@ variable "script" {
   type = string
 
   description = <<-EOT
-    a shell script for the vm.
-    https://go.s3d.club/tf/vm#subnet_id
+    A shell script for the vm.
     EOT
 }
 
@@ -114,7 +102,6 @@ variable "subnet_id" {
   type = string
 
   description = <<-EOT
-    the `subnet_id` for the vm.
-    https://go.s3d.club/tf/vm#subnet_id
+    The `subnet_id` for the vm.
     EOT
 }

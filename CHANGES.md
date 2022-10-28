@@ -12,3 +12,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.0.12](.)
 - Updated `name` module
+
+## [0.0.13](.)
+- Improved descriptions of variables and outputs
