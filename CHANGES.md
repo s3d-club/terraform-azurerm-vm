@@ -1,5 +1,5 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 ## [0.0.0](.) [0.0.9](.)
 - Created early versions
@@ -15,3 +15,6 @@ Recently completed and planned work is tracked here.
 - Upgraded `name` module
 - Upgraded `terraform` version
 - Upgraded `time` provider
+
+## [0.0.16](.)
+- Updated version
