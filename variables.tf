@@ -6,6 +6,14 @@ variable "admin_username" {
     EOT 
 }
 
+variable "disk_size_gb" {
+  type = number
+
+  description = <<-EOT
+    The `disk_size_gb` for the vm.
+    EOT 
+}
+
 variable "location" {
   type = string
 
@@ -19,14 +27,6 @@ variable "name_prefix" {
 
   description = <<-EOT
     A prefix for the random name of the vm.
-    EOT 
-}
-
-variable "disk_size_gb" {
-  type = number
-
-  description = <<-EOT
-    The `disk_size_gb` for the vm.
     EOT 
 }
 
@@ -58,6 +58,14 @@ variable "resource_group_name" {
     EOT 
 }
 
+variable "script" {
+  type = string
+
+  description = <<-EOT
+    A shell script for the vm.
+    EOT
+}
+
 variable "size" {
   type = string
 
@@ -82,26 +90,18 @@ variable "storage_account_type" {
     EOT 
 }
 
-variable "tags" {
-  type = map(string)
-
-  description = <<-EOT
-    The `tags` for the vm.
-    EOT
-}
-
-variable "script" {
-  type = string
-
-  description = <<-EOT
-    A shell script for the vm.
-    EOT
-}
-
 variable "subnet_id" {
   type = string
 
   description = <<-EOT
     The `subnet_id` for the vm.
+    EOT
+}
+
+variable "tags" {
+  type = map(string)
+
+  description = <<-EOT
+    The `tags` for the vm.
     EOT
 }
