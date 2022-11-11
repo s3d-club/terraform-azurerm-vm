@@ -4,12 +4,12 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">=3.29.1"
+      version = ">=3.31.0"
     }
 
     external = {
       source  = "hashicorp/external"
-      version = ">=2.2.2"
+      version = ">=2.2.3"
     }
 
     random = {
@@ -19,7 +19,7 @@ terraform {
 
     time = {
       source  = "hashicorp/time"
-      version = ">=0.9.0"
+      version = ">=0.9.1"
     }
   }
 }
