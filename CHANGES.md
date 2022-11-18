@@ -25,3 +25,6 @@ This file describes the project history as it relates to tagged versions.
 ## [0.0.18](.)
 - Updated `azurerm`
 - Updated Terraform version
+
+## [0.0.19](.)
+- Updated `name` module
