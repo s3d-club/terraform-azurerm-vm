@@ -1,10 +1,9 @@
 # Azure Virtual Machine Module
 This is a module that manages an Azure VM.
 
-## Other Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are updated.
+## Associated Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], and [CHANGES][chge]
+documents before working in this project and anytime they are updated.
 
 ## Overview
 The focus of this module is to provide a simplified interface for the mangement
@@ -20,6 +19,5 @@ any case where the script content changes because we want to force the image to
 be destroyed and redeployed in any case where the init scripting changes.
 
 [chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
