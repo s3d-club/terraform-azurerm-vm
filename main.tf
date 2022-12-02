@@ -1,5 +1,5 @@
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.21"
+  source = "github.com/s3d-club/terraform-external-name?ref=v1.0.1"
 
   context = var.name_prefix
   keepers = { script = var.script }
